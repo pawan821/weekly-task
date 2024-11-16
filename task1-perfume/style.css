@@ -97,22 +97,48 @@ nav > hr {
     align-items: end;
 }
 .page2 .perfume-section1 .bottel{
-    height: 500px;
     display: flex;
-    align-items: center;
-    /* border: 1px solid white; */
-    background: radial-gradient(circle,gray,rgb(77, 77, 77),rgb(46, 46, 46),rgb(2, 2, 2));
-}
-.page2 .perfume-section1::-webkit-scrollbar{
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ececec;
+    width: 40vw;
+    height: 375px;
+    margin-top: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
 }
 .page2 .perfume-section1 .bottel img{
+    margin-top: auto;
     width: 300px;
+}
+.page2 .perfume-section1 .bottel .price-div{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(224, 224, 224);
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.page2 .perfume-section1 .bottel .price-div h3{
+    color: rgb(53, 53, 53);
+}
+.page2 .perfume-section1 .bottel .price-div h5{
+    font-size: 17px;
+    color: gray;
+}
+.page2 .perfume-section1 .bottel .price-div h5 span{
+    color: rgb(53, 53, 53);
+
+}
+
+.page2 .perfume-section1::-webkit-scrollbar{
+    display: none;
 }
 .page3{
     width: 100%;
     margin-top: 40px;
-    padding: 30px 60px;
+    padding: 10px 60px;
     background-color: rgba(46, 42, 51, 0.623);
     position: relative;
     
@@ -153,6 +179,15 @@ nav > hr {
      color: transparent;
      text-shadow: -1px 1px 0 #ffffff, 1px 1px 0 #ffffff
 }
+.page3-rightdiv img{
+    width: 300px;
+}
+.page3-rightdiv button{
+    padding: 10px 25px;
+    font-size: 20px;
+    color: black;
+    background-color: beige;
+}
 
 /* ----------------------------- */
 
@@ -161,7 +196,7 @@ footer{
     width: 100%;
     height: 60%;
     padding: 80px;
-    background-color: rgb(0, 2, 7);
+    background-color: rgb(24, 24, 24);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

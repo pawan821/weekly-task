@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Agency Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="hero">
+        <nav>
+            <h1>Reservation</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book">Book Now</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>Plan Your Next Adventure</h2>
+            <p>Book flights, hotels, and events all in one place.</p>
+            <a href="#book" class="btn">Start Booking</a>
+        </div>
+        <div class="places">
+            <img src="https://4kwallpapers.com/images/walls/thumbs_3t/4253.jpg" alt="">
+            <img src="https://4kwallpapers.com/images/walls/thumbs_2t/5905.jpg" alt="">
+            <img src="https://4kwallpapers.com/images/walls/thumbs_2t/2666.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYdUHg0KJGDC5gL-w-PxjTNcMbPGO7up-RNo5bTg0ZqeFTr9A&s"
+                alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmTq84DnVsKk5SGBb4NldM53KD6T8QQaJ0Fx6ROJFZIT-POk&s"
+                alt="">
+        </div>
+    </section>
+    <section id="book" class="booking">
+        <div class="overlay">
+            <div class="container">
+                <h2>Book Your Trip</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="destination">Destination</label>
+                        <input type="text" id="destination" name="destination" placeholder="Where are you going?"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="checkin">Check-in Date</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="checkout">Check-out Date</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="adults">Adults</label>
+                        <select id="adults" name="adults" required>
+                            <option value="1">1 Adult</option>
+                            <option value="2">2 Adults</option>
+                            <option value="3">3 Adults</option>
+                            <option value="4">4 Adults</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="children">Children</label>
+                        <select id="children" name="children">
+                            <option value="0">0 Children</option>
+                            <option value="1">1 Child</option>
+                            <option value="2">2 Children</option>
+                            <option value="3">3 Children</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Budget</label>
+                        <input type="range" id="budget" name="budget" min="100" max="50000" step="100" required>
+                        <span id="budget-value">100 rupees</span>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn">Search Available Options</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-column">
+                <h3>Webtek</h3>
+                <p>Duis gravida augue velit eu dignissim felis posuere quis. Inte ante urna gravida.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Forum Support</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Pricing & Plans</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Important</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Installation Process</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column get-in-touch">
+                <h3>Get In Touch</h3>
+                <p>📞 (888) 2345-6789</p>
+                <p>✉️ info@example.com</p>
+            </div>
+        </div>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+   
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

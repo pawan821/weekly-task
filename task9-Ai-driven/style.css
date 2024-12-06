@@ -1,0 +1,273 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 100px 0px;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+}
+
+main h1 {
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+
+#ai-products img,
+#demo-integrations img,
+#interactive-tools .try-box img{
+    aspect-ratio: 16 / 9;
+}
+
+
+#ai-products{
+    background-color: #333;
+}
+#ai-products h1, #ai-products .para{
+    color: white;
+}
+#ai-products,
+#demo-integrations{
+    width: 100%;
+    padding: 60px 0px;
+    text-align: center;
+}
+#ai-products h1,
+#demo-integrations h1{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #575757;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.products ul,
+.use-cases ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;    
+}
+
+.products ul li,
+.use-cases ul li {
+    width: 35%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+.use-cases ul li {
+    box-shadow: 0px 0px 20px #333;
+}
+
+.products ul li button,
+.use-cases ul li button {
+    width: 100%;
+    padding: 10px;
+    background-color: #123b4b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.products ul li button:hover,
+.use-cases ul li button:hover {
+    opacity: 0.8;
+}
+#demo-integrations{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: rgb(202, 202, 202);
+}
+#demo-integrations h1{
+    margin: 20px;
+}
+#interactive-tools{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0px;
+    background-color: #333;
+    color: white;
+}
+#interactive-tools h1{
+    font-size: 40px;
+}
+#interactive-tools button{
+    width: 200px;
+    background-color: rgb(53, 48, 39);
+    box-shadow: 0px 0px 20px white;
+}
+.try-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.try-box .box button:hover{
+    color: wheat;
+}
+.try-box .box button:active{
+    opacity: 0.8;
+}
+
+/* purchase ai tools */
+#purchase{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: rgb(202, 202, 202);
+}
+#purchase ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;  
+}
+
+#purchase ul li {
+    width: 35%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    box-shadow: 0px 0px 20px #333;
+}
+#purchase ul li button{
+    width: 100%;
+    padding: 10px;
+    background-color: #123b4b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#purchase ul li button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

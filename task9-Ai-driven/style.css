@@ -180,6 +180,12 @@ ul li {
     justify-content: space-evenly;
 
 }
+.try-box .box{
+    width: 30%;
+}
+.try-box .box img{
+    width: 80%;
+}
 .try-box .box button:hover{
     color: wheat;
 }
